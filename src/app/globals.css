@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Brand colors */
+    --white: 0 0% 100%;
+    --warning: 32 100% 50%;
+    --error: 1 79% 60%;
+    --primary: 122 100% 35%;
+    --primary-bright: 122 46% 67%;
+    --primary-dark: 122 45% 31%;
+
+    /* Gray scale colors */
+    --gray-50: 0 0% 95%;
+    --gray-100: 0 0% 90%;
+    --gray-200: 0 0% 80%;
+    --gray-300: 0 0% 70%;
+    --gray-400: 0 0% 60%;
+    --gray-500: 0 0% 50%;
+    --gray-600: 0 0% 40%;
+    --gray-700: 0 0% 30%;
+    --gray-800: 0 0% 20%;
+    --gray-900: 0 0% 10%;
+
+    /* Green gray scale colors */
+    --green-gray-50: 132 16% 94%;
+    --green-gray-100: 120 17% 88%;
+    --green-gray-200: 120 19% 75%;
+    --green-gray-300: 122 15% 64%;
+    --green-gray-400: 124 13% 54%;
+    --green-gray-500: 122 14% 44%;
+    --green-gray-600: 123 25% 34%;
+    --green-gray-700: 124 34% 25%;
+    --green-gray-800: 125 44% 16%;
+    --green-gray-900: 125 100% 7%;
+  }
+}
