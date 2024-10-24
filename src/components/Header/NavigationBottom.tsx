@@ -62,12 +62,13 @@ export default function NavigationBottom() {
           <div>
             <ul className="flex items-center gap-8">
               {links.map((link) => (
-                <NavLink
-                  key={link.title}
-                  title={link.title}
-                  href={link.href}
-                  isDropDown={link.isDropDown}
-                />
+                <li key={link.title}>
+                  <NavLink
+                    title={link.title}
+                    href={link.href}
+                    isDropDown={link.isDropDown}
+                  />
+                </li>
               ))}
             </ul>
           </div>

@@ -1,4 +1,5 @@
 import { Bag, Heart, Logo, Search } from "@/assets/icons";
+import Link from "next/link";
 
 export default function NavigationMiddle() {
   return (
@@ -6,10 +7,12 @@ export default function NavigationMiddle() {
       <div className="container mx-auto">
         <div className="flex items-center justify-between py-6">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <Logo />
-            <p className="text-h5 text-green-gray-900 font-500">Ecobazar</p>
-          </div>
+          <Link href="/">
+            <div className="flex items-center gap-2">
+              <Logo />
+              <p className="text-h5 text-green-gray-900 font-500">Ecobazar</p>
+            </div>
+          </Link>
 
           {/* Search */}
           <div className="flex items-center text-sm">
