@@ -1,5 +1,10 @@
+import Hero from "@/components/Hero";
 import Default from "@/components/Layouts/Default";
 
 export default function Home() {
-  return <Default></Default>;
+  return (
+    <Default>
+      <Hero />
+    </Default>
+  );
 }

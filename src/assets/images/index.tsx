@@ -1,7 +1,11 @@
-import applePay from "./apple-pay.png";
-import visa from "./visa.png";
-import discovery from "./discovery.png";
-import mastercard from "./mastercard.png";
-import securePayment from "./secure-payment.png";
+// Hero
+import heroBG from "./hero/hero-bg.png";
 
-export { applePay, visa, discovery, mastercard, securePayment };
+// Payment
+import applePay from "./payment/apple-pay.png";
+import visa from "./payment/visa.png";
+import discovery from "./payment/discovery.png";
+import mastercard from "./payment/mastercard.png";
+import securePayment from "./payment/secure-payment.png";
+
+export { heroBG, applePay, visa, discovery, mastercard, securePayment };
