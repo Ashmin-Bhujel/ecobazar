@@ -10,6 +10,8 @@ import DeliveryTruck from "./DeliveryTruck";
 import Headphones from "./Headphones";
 import ShoppingBag from "./ShoppingBag";
 import Package from "./Package";
+import Apple from "./Apple";
+import GooglePlay from "./GooglePlay";
 
 export {
   MapPin,
@@ -24,4 +26,6 @@ export {
   Headphones,
   ShoppingBag,
   Package,
+  Apple,
+  GooglePlay,
 };

@@ -13,7 +13,7 @@ export function NavLink({ title, href, isDropDown }: NavLinkPropType) {
       <div className="flex items-center gap-1">
         <span className="group-hover:text-white">{title}</span>
         {isDropDown && (
-          <DropDownArrow className="size-3 group-hover:*:stroke-white" />
+          <DropDownArrow className="size-3 group-hover:*:stroke-white group-hover:rotate-180" />
         )}
       </div>
     </Link>
@@ -76,7 +76,7 @@ export default function NavigationBottom() {
           {/* Call */}
           <div className="flex items-center gap-2 group cursor-pointer">
             <PhoneCall />
-            <p className="text-white group-hover:underline underline-offset-2">
+            <p className="text-white group-hover:underline underline-offset-4">
               (219) 555-0114
             </p>
           </div>

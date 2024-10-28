@@ -8,7 +8,7 @@ export default function NavigationTop() {
           {/* Location */}
           <div className="flex items-center gap-2 group cursor-pointer">
             <MapPin className="group-hover:*:stroke-white" />
-            <p className="group-hover:text-white group-hover:underline underline-offset-2">
+            <p className="group-hover:text-white group-hover:underline underline-offset-4">
               Store Location: Lincoln- 344, Illinois, Chicago, USA
             </p>
           </div>
@@ -19,11 +19,11 @@ export default function NavigationTop() {
             <div className="flex items-center gap-5 pr-5 border-r border-white/10">
               <div className="flex items-center gap-2 group cursor-pointer">
                 <p className="group-hover:text-white">Eng</p>
-                <DropDownArrow className="group-hover:*:stroke-white" />
+                <DropDownArrow className="group-hover:*:stroke-white group-hover:rotate-180" />
               </div>
               <div className="flex items-center gap-2 group cursor-pointer">
                 <p className="group-hover:text-white">USD</p>
-                <DropDownArrow className="group-hover:*:stroke-white" />
+                <DropDownArrow className="group-hover:*:stroke-white group-hover:rotate-180" />
               </div>
             </div>
 

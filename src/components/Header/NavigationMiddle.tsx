@@ -17,7 +17,7 @@ export default function NavigationMiddle() {
           {/* Search */}
           <div className="flex items-center text-sm">
             {/* Search Box */}
-            <div className="w-[25rem] flex items-center gap-2 border border-gray-100 rounded-l-md border-r-0 px-4 py-3">
+            <div className="w-96 flex items-center gap-2 border border-gray-100 rounded-l-md border-r-0 px-4 py-3">
               <Search />
               <input
                 type="text"
@@ -25,7 +25,7 @@ export default function NavigationMiddle() {
                 id="search"
                 placeholder="Search"
                 autoFocus
-                className="outline-none border-none font-400"
+                className="outline-none border-none font-400 w-full"
               />
             </div>
             {/* Search Button */}
