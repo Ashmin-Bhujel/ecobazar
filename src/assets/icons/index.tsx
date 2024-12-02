@@ -1,17 +1,18 @@
-import MapPin from "./MapPin";
-import DropDownArrow from "./DropDownArrow";
-import Logo from "./Logo";
-import Search from "./Search";
-import Heart from "./Heart";
-import Bag from "./Bag";
-import PhoneCall from "./PhoneCall";
-import ButtonArrow from "./ButtonArrow";
-import DeliveryTruck from "./DeliveryTruck";
-import Headphones from "./Headphones";
-import ShoppingBag from "./ShoppingBag";
-import Package from "./Package";
-import Apple from "./Apple";
-import GooglePlay from "./GooglePlay";
+import MapPin from "@/assets/icons/MapPin";
+import DropDownArrow from "@/assets/icons/DropDownArrow";
+import Logo from "@/assets/icons/Logo";
+import Search from "@/assets/icons/Search";
+import Heart from "@/assets/icons/Heart";
+import Bag from "@/assets/icons/Bag";
+import PhoneCall from "@/assets/icons/PhoneCall";
+import ButtonArrow from "@/assets/icons/ButtonArrow";
+import DeliveryTruck from "@/assets/icons/DeliveryTruck";
+import Headphones from "@/assets/icons/Headphones";
+import ShoppingBag from "@/assets/icons/ShoppingBag";
+import Package from "@/assets/icons/Package";
+import Apple from "@/assets/icons/Apple";
+import GooglePlay from "@/assets/icons/GooglePlay";
+import EyeOpen from "@/assets/icons/EyeOpen";
 
 export {
   MapPin,
@@ -28,4 +29,5 @@ export {
   Package,
   Apple,
   GooglePlay,
+  EyeOpen,
 };

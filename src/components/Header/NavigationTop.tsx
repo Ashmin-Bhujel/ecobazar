@@ -1,4 +1,5 @@
 import { DropDownArrow, MapPin } from "@/assets/icons";
+import Link from "next/link";
 
 export default function NavigationTop() {
   return (
@@ -28,11 +29,14 @@ export default function NavigationTop() {
             </div>
 
             {/* Account */}
-            <div className="flex items-center gap-1 pl-5 hover:text-white">
+            <Link
+              href="/signin"
+              className="flex items-center gap-1 pl-5 hover:text-white"
+            >
               <p>Sign In</p>
               <p>/</p>
               <p>Sign Up</p>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
